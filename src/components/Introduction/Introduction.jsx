@@ -4,7 +4,7 @@ import { homeImage } from "../../assets";
 
 const Introduction = () => {
     return (
-        <div className="mt-7 px-4 md:px-20 items-center flex flex-col md:flex-row">
+        <div className="mt-7 px-4 md:px-20 flex flex-col justify-evenly md:flex-row">
             <div>
                 <h1 className="text-[40px] font-bold">{AppText.hello}</h1>
                 <h1 className="text-[40px] font-bold">

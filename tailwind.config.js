@@ -4,7 +4,7 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                "primary-tangerine": "#DF4A2E",
+                "primary-tangerine": "#FA4B38",
                 "skill-header": "#F6EAB2",
                 "skill-subtext": "#F3F4F6",
                 "avatar-border": "#5D8D99",
