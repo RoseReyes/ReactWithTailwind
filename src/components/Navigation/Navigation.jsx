@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 
-import Avatar from "../Avatar/Avatar";
+import Logo from "../Logo/Logo";
 
 const Navigation = () => {
     const [toggle, setToggle] = useState(false);
 
     return (
-        <div>
+        <div className="p-[20px]">
             <div className="flex justify-between">
-                <Avatar />
+                <Logo />
                 <div className="hidden md:flex">
                     {/* todo: refactor - put inside another component */}
                     <ul className="flex flex-row gap-10">

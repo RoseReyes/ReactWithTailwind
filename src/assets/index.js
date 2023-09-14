@@ -16,6 +16,7 @@ import instagram from "./Instagram.png";
 import javascript from "./javascript.png";
 import laptop from "./laptop.png";
 import linkdin from "./LinkedIn.png";
+import logo from "./logo.png";
 import nodejs from "./nodejs.png";
 import phone from "./phone.png";
 import react from "./react.png";
@@ -62,4 +63,5 @@ export {
     git,
     css,
     uiux,
+    logo,
 };

@@ -8,7 +8,7 @@ import Skills from "./components/Skills/Skills";
 
 const App = () => {
     return (
-        <div className="p-[20px]">
+        <div>
             {/* Nav Bar */}
             <Navigation />
 
