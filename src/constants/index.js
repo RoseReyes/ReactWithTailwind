@@ -48,8 +48,7 @@ export const links = [
 
 export const introductionDetails = [
     "Rose Reyes",
-    "Frontend Dev",
-    "Backend Dev",
+    "Web Developer",
     "Learner",
     "Creative",
 ];
@@ -78,19 +77,19 @@ export const aboutSection = [
         id: 1,
         image: uiux,
         title: "User Interface",
-        desc: "Add description here",
+        desc: "Create UI with Figma, Balsamiq",
     },
     {
         id: 2,
         image: "https://media.istockphoto.com/id/1304570729/vector/front-end-development-concept-vector-flat-graphic-design-illustration.jpg?s=612x612&w=0&k=20&c=0lpu0j-4FbuoA7xpGzt9apKZeI5F9KlNNe0qRYxjUYs=",
         title: "Frontend Developer",
-        desc: "Add description here",
+        desc: "Create responsive and functional web application around JavaScript ecosystem, CSS and React front-end framework",
     },
     {
         id: 3,
         image: "https://img.freepik.com/premium-vector/back-end-developer-working-laptop_701961-1383.jpg?w=2000",
         title: "Back-end Developer",
-        desc: "Add description here",
+        desc: "Support C# back-end code base, RESTFUL APIs and SQL.",
     },
 ];
 
@@ -152,36 +151,36 @@ export const workDetail = [
     {
         id: 1,
         year: "2023",
-        companyName: "Wildlife Computers Inc.",
-        position: "Front-end Developer",
+        companyName: "WILDLIFE COMPUTERS INC.",
+        position: "Web Developer",
     },
     {
         id: 2,
         year: "2018",
-        companyName: "Microsoft",
-        position: "Full Stack Developer (Back-end focused)",
+        companyName: "MICROSOFT",
+        position: "Full Stack (Back-end focus)",
     },
     {
         id: 3,
         year: "2017",
-        companyName: "General Communications Inc.",
+        companyName: "GCI",
         position: "Business Analyst",
     },
     {
         id: 4,
         year: "2015",
-        companyName: "Philippine Long Distance Telephone Company",
+        companyName: "PLDT",
         position: "Systems Analyst",
     },
     {
         id: 5,
         year: "2011",
-        companyName: "24/7 International",
+        companyName: "24/7 INTERNATIONAL",
         position: "Systems Analyst",
     },
 ];
 
-export const portfolio = [
+export const projects = [
     {
         id: 1,
         title: "Food Delivery UI/UX",
@@ -200,7 +199,7 @@ export const portfolio = [
     {
         id: 2,
         title: "Business Listing App",
-        type: "mobile",
+        type: "website",
         desc: "App Build using React native and compatible for Android and IOS",
         imageUrl:
             "https://www.radiustheme.com/wp-content/uploads/2022/05/Directory-app.png",
@@ -236,4 +235,10 @@ export const socialNetwork = [
         logo: facebook,
         url: "https://www.facebook.com/rahul.sanap1",
     },
+];
+
+export const projectButtons = [
+    { id: 1, type: "all", name: "All" },
+    { id: 2, type: "ui/ux", name: "UI/UX" },
+    { id: 3, type: "website", name: "Web App" },
 ];

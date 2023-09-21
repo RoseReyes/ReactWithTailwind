@@ -34,7 +34,7 @@ const About = () => {
                             rounded-lg"
                         />
                         <div className="w-[230px] pb-[20px]">
-                            <h2 className="font-bold group-hover:text-skill-header">
+                            <h2 className="font-bold group-hover:text-orange-100">
                                 {item.title}
                             </h2>
                             <h2 className="text-[12px] text-gray-500 group-hover:text-skill-subtext">

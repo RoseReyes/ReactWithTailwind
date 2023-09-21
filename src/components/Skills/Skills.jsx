@@ -5,7 +5,7 @@ import { skill } from "../../assets";
 
 const Skills = () => {
     return (
-        <div className="md:mt-[70px]">
+        <div className="mt-[60px]">
             <div className="flex flex-row justify-center">
                 <img
                     className="h-[90px] md:h-[100px] hover:animate-shake"
@@ -17,8 +17,8 @@ const Skills = () => {
                     <span className="text-primary-tangerine">Experties</span>
                 </h2>
             </div>
-            <div className="flex flex-col gap-10 md:flex-row justify-center">
-                <div class="grid grid-rows-3 grid-flow-col-dense justify-item-center gap-10 mt-10">
+            <div className="grid md:grid-cols-2 justify-items-center">
+                <div class="grid grid-rows-3 grid-flow-col-dense gap-10 md:ml-[250px] p-10">
                     {skillsList.map((skill, index) => (
                         <img
                             src={skill.icon}
@@ -28,19 +28,17 @@ const Skills = () => {
                         ></img>
                     ))}
                 </div>
-                <div class="grid grid-rows-5 justify-item-end gap-5 mt-10">
+                <div className="grid grid-cols-10 grid-flow-row-dense justify-items-start ml-11 md:p-0 md:mr-[200px] md:pl-2 md:mt-10">
                     {workDetail.map((work, index) => (
-                        <div key={work.id}>
-                            <p className="font-bold">{work.year}</p>
-                        </div>
-                    ))}
-                </div>
-                <div class="grid grid-rows-5 justify-item-center gap-5 mt-10">
-                    {workDetail.map((work, index) => (
-                        <div key={work.id}>
-                            <p className="font-bold">{work.position}</p>
-                            <p className="text-[12px]">{work.companyName}</p>
-                        </div>
+                        <p className="col col-span-10 font-bold text-base/loose">
+                            {work.year}
+                            <span className="ml-10">
+                                {work.position}{" "}
+                                <span className="font-regular">
+                                    - {work.companyName}
+                                </span>
+                            </span>
+                        </p>
                     ))}
                 </div>
             </div>

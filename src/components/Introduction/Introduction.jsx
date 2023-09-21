@@ -1,6 +1,7 @@
+import { avatar, homeImage } from "../../assets";
+
 import { AppText } from "../../constants";
 import React from "react";
-import { homeImage } from "../../assets";
 
 const Introduction = () => {
     return (
@@ -21,9 +22,9 @@ const Introduction = () => {
                 </button>
             </div>
             <img
-                src={homeImage}
+                src={avatar}
                 alt="home"
-                className="w-[300px] md:w-[400px]"
+                className="h-[175px] w-[175px] rounded-full p-1 ring  ring-avatar-border mt-7 ml-[100px] md:ml-0"
             />
         </div>
     );
