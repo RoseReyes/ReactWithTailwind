@@ -26,7 +26,10 @@ const About = () => {
             items-center px-32"
             >
                 {aboutSection.map((item, index) => (
-                    <div className="group hover:bg-primary-tangerine mb-5 p-7 rounded-2xl">
+                    <div
+                        key={item.id}
+                        className="group hover:bg-primary-tangerine mb-5 p-7 rounded-2xl"
+                    >
                         <img
                             src={item.image}
                             alt="card"

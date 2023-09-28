@@ -18,19 +18,22 @@ const Skills = () => {
                 </h2>
             </div>
             <div className="grid md:grid-cols-2 justify-items-center">
-                <div class="grid grid-rows-3 grid-flow-col-dense gap-10 md:ml-[250px] p-10">
+                <div className="grid grid-rows-3 grid-flow-col-dense gap-10 md:ml-[250px] p-10">
                     {skillsList.map((skill, index) => (
                         <img
+                            key={skill.id}
                             src={skill.icon}
                             alt="img1"
-                            key={skill.id}
                             className="h-[50px] w-[50px] rounded-full bg-blue-100 p-2 transition-all delay-150 duration-300 ease-in-out hover:scale-150"
                         ></img>
                     ))}
                 </div>
                 <div className="grid grid-cols-10 grid-flow-row-dense justify-items-start ml-11 md:p-0 md:mr-[200px] md:pl-2 md:mt-10">
                     {workDetail.map((work, index) => (
-                        <p className="col col-span-10 font-bold text-base/loose">
+                        <p
+                            key={work.id}
+                            className="col col-span-10 font-bold text-base/loose"
+                        >
                             {work.year}
                             <span className="ml-10">
                                 {work.position}{" "}
